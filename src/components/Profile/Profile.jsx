@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {
-  Profile,
+  ProfileStyle,
   Description,
   Avatar,
   Name,
@@ -10,9 +10,9 @@ import {
   StatItem,
   Label,
   Quantity,
-} from './SocialProfile.styled';
+} from './Profile.styled';
 
-export default function SocialProfile({
+export default function Profile({
   username,
   tag,
   location,
@@ -20,7 +20,7 @@ export default function SocialProfile({
   stats,
 }) {
   return (
-    <Profile>
+    <ProfileStyle>
       <Description>
         <Avatar src={avatar} alt="User avatar" />
         <Name>{username}</Name>
@@ -42,11 +42,11 @@ export default function SocialProfile({
           <Quantity>{stats.likes}</Quantity>
         </StatItem>
       </Stats>
-    </Profile>
+    </ProfileStyle>
   );
 }
 
-SocialProfile.propTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,

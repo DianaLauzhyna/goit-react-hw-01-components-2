@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Profile = styled.div`
+export const ProfileStyle = styled.div`
   display: block;
   width: 25vw;
   margin-bottom: 2rem;

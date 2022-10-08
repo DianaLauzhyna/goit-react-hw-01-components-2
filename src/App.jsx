@@ -1,8 +1,7 @@
-import SocialProfile from './components/SocialProfile/SocialProfile';
+import SocialProfile from './components/Profile/Profile';
 import Statistics from './components/Statistics/Statistics';
 import FriendList from './components/FriendList/FriendList';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
-import FriendsItem from './components/FriendsItem/FriendsItem';
 
 import { Wrapper } from './App.styled';
 import user from './database/user';
