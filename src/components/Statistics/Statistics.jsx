@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import colorRandomizer from '../../colorRandomizer';
+import colorRandomizer from '../../utils/colorRandomizer';
 import {
   StatSection,
   Title,
